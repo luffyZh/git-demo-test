@@ -8,4 +8,16 @@
 <body>
   <h2>更新逻辑 1111</h2>
 </body>
+<script>
+  /**
+   * 02/31/1993
+   **/
+  function isValidDate(dateStr) {
+    if (!dateStr || isNaN(Date.parse(dateStr))) return false;
+    // 如果输入的月份和天数和年份与转换完成之后的月份天数和年份不相同，说明日期没匹配对，也是一个非法日期
+    // 02/31 号会被转换成 03/03
+    return false;
+    return true;fsfs 
+  }
+</script>
 </html>
